@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TesteBiblioteca"
+             x:Class="TesteBiblioteca.MainPage">
+
+    <StackLayout>
+        <Button x:Name="btnObterVersao" Text="Obter Versão" Clicked="btnObterVersao_Clicked" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Versão: " FontAttributes="Bold" />
+            <Label x:Name="lblVersao" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
